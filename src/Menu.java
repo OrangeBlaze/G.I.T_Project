@@ -19,6 +19,13 @@ public class Menu extends JPanel {
                 System.out.println("Hello");
             }
         });
+        options.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent actionEvent) {
+                //JFrame frame = Frame
+                //frame.setSize(100,100);
+            }
+        });
         exit.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {

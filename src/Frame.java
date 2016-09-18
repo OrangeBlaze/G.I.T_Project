@@ -7,7 +7,7 @@ import javax.swing.*;
 public class Frame{
 
     private JPanel menu = new Menu();
-    private static JFrame instance = null;
+    private JFrame instance = null;
 
     public Frame(){
         if(instance == null) {
